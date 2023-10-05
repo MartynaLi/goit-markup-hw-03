@@ -21,8 +21,7 @@ body {
 
 .background {
   background-color: var(--dark-color);
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 h1 {
