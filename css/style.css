@@ -21,11 +21,12 @@ body {
 
 .background {
   background-color: var(--dark-color);
-  padding: 188px 472px;
+  padding: 188px 0;
 }
 
 h1 {
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .header-one {
@@ -35,6 +36,10 @@ h1 {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 496px;
+  padding-bottom: 48px;
 }
 
 .header-three {
@@ -84,6 +89,7 @@ h1 {
   text-transform: uppercase;
   color: var(--primary-brand-color);
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo-studio {
@@ -130,7 +136,11 @@ h1 {
   letter-spacing: 0.04em;
   padding: 16px 32px;
   border-radius: 4px;
+  display: block;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .filter-button {
@@ -156,10 +166,12 @@ h1 {
 .filter-button:focus {
   color: var(--white-background-color);
   background-color: var(--pressed-state-color);
+  border: 1px solid transparent;
 }
 
 .address {
   font-style: normal;
+  margin-left: 332px;
 }
 
 .footer {
@@ -173,11 +185,16 @@ h1 {
 
 .background-footer {
   background-color: var(--dark-color);
-  padding: 101.5px 1020px 100px 156px;
+  padding: 100px 0;
 }
 
 .logo-studio-footer {
   color: var(--light-color);
+}
+
+.link-footer {
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .background-li {
@@ -219,6 +236,11 @@ h1 {
   padding: 0 15px;
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .flex-nav {
   display: flex;
   flex-wrap: wrap;
@@ -227,6 +249,7 @@ h1 {
 
 .flex-nav-li {
   flex-basis: calc(100% - 80px) / 3;
+  padding: 24px 0;
 }
 
 .flex-address-li {
@@ -245,9 +268,15 @@ h1 {
   flex-basis: calc(100% - 96px) / 4;
 }
 
+.section-portfolio {
+  padding-top: 96px; padding-bottom: 120px;
+}
+
 .portfolio-flex {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-flex-li {
@@ -267,7 +296,7 @@ h1 {
 }
 
 .our-values-flex-li {
-  flex-basis: calc(100% - 72px) / 4;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .doing-flex-li {
@@ -276,11 +305,16 @@ h1 {
 
 .team-flex-li {
   flex-basis: calc(100% - 72px) / 4;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-text {
-  padding: 32px 16px;
+  padding: 32px 0px;
   text-align: center;
+}
+
+img {
+    display: block;
 }
 
 * {
