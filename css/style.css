@@ -21,7 +21,13 @@ body {
 
 .background {
   background-color: var(--dark-color);
+  padding: 188px 472px;
 }
+
+h1 {
+  margin-bottom: 48px;
+}
+
 .header-one {
   color: var(--white-background-color);
   font-size: 56px;
@@ -37,6 +43,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .description {
@@ -54,6 +61,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .background-cloud {
@@ -120,6 +128,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 16px 32px;
+  border-radius: 4px;
+  margin: 0 auto;
 }
 
 .filter-button {
@@ -131,6 +142,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px var(--accent-color) solid;
 }
 
 .filter-button-main:hover,
@@ -153,6 +167,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+  margin-top: 17.5px;
+}
+
+.background-footer {
+  background-color: var(--dark-color);
+  padding: 101.5px 1020px 100px 156px;
 }
 
 .logo-studio-footer {
@@ -178,4 +199,92 @@ body {
 
 .container {
   width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-block: 120px;
+}
+
+.header {
+  padding: 24px 156px;
+  border-bottom: 1px solid var(--accent-color)"
+}
+
+.container-header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.flex-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.flex-nav-li {
+  flex-basis: calc(100% - 80px) / 3;
+}
+
+.flex-address-li {
+  flex-basis: calc(100% - 40px) / 2;
+}
+
+.button-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.button-flex-li {
+  flex-basis: calc(100% - 96px) / 4;
+}
+
+.portfolio-flex {
+  display: flex;
+  gap: 24px;
+}
+
+.portfolio-flex-li {
+  flex-basis: calc(100% - 48px) / 3;
+}
+
+.portfolio-img {
+  padding: 32px 16px;
+  border-right: 1px var(--accent-color) solid;
+  border-bottom: 1px var(--accent-color) solid;
+  border-left: 1px var(--accent-color) solid;
+}
+
+.our-values-flex {
+  display: flex;
+  gap: 24px;
+}
+
+.our-values-flex-li {
+  flex-basis: calc(100% - 72px) / 4;
+}
+
+.doing-flex-li {
+  flex-basis: calc(100% - 48px) / 2;
+}
+
+.team-flex-li {
+  flex-basis: calc(100% - 72px) / 4;
+}
+
+.team-text {
+  padding: 32px 16px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
